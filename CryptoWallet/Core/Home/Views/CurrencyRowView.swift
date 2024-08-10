@@ -17,6 +17,9 @@ struct CurrencyRowView: View {
             Spacer()
             rightView
         }
+        .background {
+            Color.theme.background.opacity(0.000001)
+        }
     }
 }
 

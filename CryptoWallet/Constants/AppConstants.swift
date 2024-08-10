@@ -13,6 +13,7 @@ struct AppConstants {
     static let newsAPIKey = "c1MpDXGi8r/MHl/H7kyFxJMZhkov0fPGFxLteRunMCw="
     static let baseURL = "https://api.coingecko.com/api/v3/coins/markets"
     static let globalMarketDataAPI = "https://api.coingecko.com/api/v3/global"
+    static let coinDetailBaseURL = "https://api.coingecko.com/api/v3/coins/"
     
     enum Endpoints: String {
         case coins
