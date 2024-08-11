@@ -21,7 +21,6 @@ struct CoinDetailView: View {
 }
 
 #Preview {
-//    CoinDetailView(coin: .constant(Dev.getDevCoinModel()))
     NavigationView {
         DetailView(coin: Dev.getDevCoinModel())
     }
@@ -30,6 +29,8 @@ struct CoinDetailView: View {
 struct DetailView: View {
     
     @StateObject private var vm: CoinDetailViewModel
+    @State private var readMoreExpended: Bool = false
+    
     private let columns: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -46,13 +47,16 @@ struct DetailView: View {
                     .frame(height: 200)
             }
             .padding(.vertical)
-            VStack {
+            .padding(.horizontal,8)
+            VStack(spacing: 20) {
                 titleView("Overview")
                 Divider()
+                descriptionView
                 lazyGridView(vm.overviewStats)
                 titleView("Additional Details")
                 Divider()
                 lazyGridView(vm.addtionalStats)
+                linksView
             }
             .padding()
         }
@@ -93,5 +97,42 @@ extension DetailView {
                 StatView(stat: stat)
             }
         })
+    }
+    
+    private var descriptionView: some View {
+        ZStack {
+            if let desc = vm.coinDescription, !desc.isEmpty {
+                VStack(alignment: .leading) {
+                    Text(desc.removingHTMLOccurances)
+                        .lineLimit(readMoreExpended ? nil : 4)
+                        .foregroundStyle(Color.accent.opacity(0.7))
+                    Button {
+                        withAnimation(.easeInOut) {
+                            readMoreExpended.toggle()
+                        }
+                    } label: {
+                        Text(readMoreExpended ? "Read Less" : "Read More")
+                            .accentColor(.blue)
+                            .font(.caption.bold())
+                            .padding(.vertical,2)
+                    }
+
+                }
+            }
+        }
+    }
+    
+    private var linksView: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            if let webURLString = vm.webURLString, let webURL = URL(string: webURLString) {
+                Link("Official Website", destination: webURL)
+            }
+            if let redditURLString = vm.redditURLString, let redditURL = URL(string: redditURLString) {
+                Link("Reddit Website", destination: redditURL)
+            }
+        }
+        .accentColor(.blue)
+        .frame(maxWidth: .infinity,alignment: .leading)
+        .font(.headline)
     }
 }

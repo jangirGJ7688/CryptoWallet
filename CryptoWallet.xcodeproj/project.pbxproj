@@ -45,6 +45,7 @@
 		B4F179152C67D23B0018E7FF /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179142C67D23B0018E7FF /* ChartView.swift */; };
 		B4F179172C6866530018E7FF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179162C6866530018E7FF /* DateExtension.swift */; };
 		B4F179192C687A390018E7FF /* DevModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179182C687A390018E7FF /* DevModel.swift */; };
+		B4F1791B2C6888BF0018E7FF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1791A2C6888BF0018E7FF /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		B4F179142C67D23B0018E7FF /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B4F179162C6866530018E7FF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		B4F179182C687A390018E7FF /* DevModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevModel.swift; sourceTree = "<group>"; };
+		B4F1791A2C6888BF0018E7FF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				B4DF88812C1C980B00C16184 /* DoubleExtension.swift */,
 				B4DF88952C22967500C16184 /* UIApplication.swift */,
 				B4F179162C6866530018E7FF /* DateExtension.swift */,
+				B4F1791A2C6888BF0018E7FF /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				B4DF88982C23321500C16184 /* HomeStatModel.swift in Sources */,
 				B4F179172C6866530018E7FF /* DateExtension.swift in Sources */,
 				B46BF9A22C2463E4007EDF65 /* PortfolioDataService.swift in Sources */,
+				B4F1791B2C6888BF0018E7FF /* StringExtension.swift in Sources */,
 				B4DF88802C1C5FF700C16184 /* CoinModel.swift in Sources */,
 				B4DF888F2C2162E700C16184 /* NetworkingManager.swift in Sources */,
 				B46BF9A42C2494CE007EDF65 /* PortfolioRowView.swift in Sources */,

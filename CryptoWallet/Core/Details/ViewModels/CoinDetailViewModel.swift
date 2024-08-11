@@ -13,6 +13,10 @@ class CoinDetailViewModel: ObservableObject {
     @Published var coinData: CoinDetailModel?
     @Published var overviewStats: [HomeStatModel] = []
     @Published var addtionalStats: [HomeStatModel] = []
+    @Published var coinDescription: String? = nil
+    @Published var webURLString: String? = nil
+    @Published var redditURLString: String? = nil
+    
     
     @Published var coin: CoinModel
     private var detailDataService: CoinDetailDataService
@@ -33,6 +37,16 @@ class CoinDetailViewModel: ObservableObject {
                 guard let self = self else { return }
                 self.overviewStats = returnedArrays.overviewStats
                 self.addtionalStats = returnedArrays.addtionalStats
+            }
+            .store(in: &subscription)
+        
+        detailDataService
+            .$coinData
+            .sink { [weak self] coinData in
+                guard let self = self else { return }
+                self.coinDescription = coinData?.description?.en
+                self.webURLString = coinData?.links?.homepage?.first
+                self.redditURLString = coinData?.links?.subredditURL
             }
             .store(in: &subscription)
     }
