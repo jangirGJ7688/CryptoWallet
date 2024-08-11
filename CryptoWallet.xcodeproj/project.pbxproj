@@ -42,6 +42,9 @@
 		B4F1790F2C6736D90018E7FF /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1790E2C6736D90018E7FF /* CoinDetailDataService.swift */; };
 		B4F179112C6738A90018E7FF /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179102C6738A90018E7FF /* CoinDetailModel.swift */; };
 		B4F179132C673CCC0018E7FF /* CoinDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179122C673CCC0018E7FF /* CoinDetailViewModel.swift */; };
+		B4F179152C67D23B0018E7FF /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179142C67D23B0018E7FF /* ChartView.swift */; };
+		B4F179172C6866530018E7FF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179162C6866530018E7FF /* DateExtension.swift */; };
+		B4F179192C687A390018E7FF /* DevModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F179182C687A390018E7FF /* DevModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +84,9 @@
 		B4F1790E2C6736D90018E7FF /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		B4F179102C6738A90018E7FF /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		B4F179122C673CCC0018E7FF /* CoinDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewModel.swift; sourceTree = "<group>"; };
+		B4F179142C67D23B0018E7FF /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		B4F179162C6866530018E7FF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B4F179182C687A390018E7FF /* DevModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 				B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */,
 				B4DF885F2C19C7A200C16184 /* Assets.xcassets */,
 				B4DF88612C19C7A200C16184 /* Preview Content */,
+				B4F179182C687A390018E7FF /* DevModel.swift */,
 			);
 			path = CryptoWallet;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 				B4DF886F2C19D32E00C16184 /* ColorExtension.swift */,
 				B4DF88812C1C980B00C16184 /* DoubleExtension.swift */,
 				B4DF88952C22967500C16184 /* UIApplication.swift */,
+				B4F179162C6866530018E7FF /* DateExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				B4F1790C2C668B5D0018E7FF /* CoinDetailView.swift */,
+				B4F179142C67D23B0018E7FF /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DF88982C23321500C16184 /* HomeStatModel.swift in Sources */,
+				B4F179172C6866530018E7FF /* DateExtension.swift in Sources */,
 				B46BF9A22C2463E4007EDF65 /* PortfolioDataService.swift in Sources */,
 				B4DF88802C1C5FF700C16184 /* CoinModel.swift in Sources */,
 				B4DF888F2C2162E700C16184 /* NetworkingManager.swift in Sources */,
@@ -366,6 +376,7 @@
 				B4DF885C2C19C7A100C16184 /* CryptoWalletApp.swift in Sources */,
 				B4DF88842C1DC50F00C16184 /* HomeViewModel.swift in Sources */,
 				B4DF88962C22967500C16184 /* UIApplication.swift in Sources */,
+				B4F179192C687A390018E7FF /* DevModel.swift in Sources */,
 				B46BF9AA2C27ECF2007EDF65 /* CoinChartDataService.swift in Sources */,
 				B4DF88AA2C2403F100C16184 /* CoinCollectionView.swift in Sources */,
 				B4DF88A32C23F23800C16184 /* XMarkButton.swift in Sources */,
@@ -373,6 +384,7 @@
 				B4DF88A82C23FCCC00C16184 /* AsyncImageView.swift in Sources */,
 				B4DF88762C19D4EB00C16184 /* HomeView.swift in Sources */,
 				B4DF88A12C23516C00C16184 /* MarketDataService.swift in Sources */,
+				B4F179152C67D23B0018E7FF /* ChartView.swift in Sources */,
 				B4DF88682C19C7A200C16184 /* PortfolioCointainer.xcdatamodeld in Sources */,
 				B4DF888C2C215C9B00C16184 /* AppConstants.swift in Sources */,
 				B4DF88702C19D32E00C16184 /* ColorExtension.swift in Sources */,

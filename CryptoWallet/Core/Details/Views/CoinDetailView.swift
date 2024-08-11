@@ -42,8 +42,11 @@ struct DetailView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("")
-                    .frame(height: 150)
+                ChartView(coin: vm.coin)
+                    .frame(height: 200)
+            }
+            .padding(.vertical)
+            VStack {
                 titleView("Overview")
                 Divider()
                 lazyGridView(vm.overviewStats)
@@ -54,11 +57,25 @@ struct DetailView: View {
             .padding()
         }
         .navigationTitle(vm.coin.name)
+        .toolbar(content: {
+            ToolbarItem(placement: .topBarTrailing) {
+                navBarTrailingToolItem
+            }
+        })
     }
 }
 
 
 extension DetailView {
+    
+    private var navBarTrailingToolItem: some View {
+        HStack {
+            Text(vm.coin.symbol.uppercased())
+                .font(.headline.bold())
+                .foregroundStyle(Color.theme.secondaryText)
+            AsyncImageView(urlSting: vm.coin.image)
+        }
+    }
     private func titleView(_ title: String) -> some View {
         Text(title)
             .font(.title.bold())
