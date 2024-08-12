@@ -14,6 +14,7 @@ struct AppConstants {
     static let baseURL = "https://api.coingecko.com/api/v3/coins/markets"
     static let globalMarketDataAPI = "https://api.coingecko.com/api/v3/global"
     static let coinDetailBaseURL = "https://api.coingecko.com/api/v3/coins/"
+    static let newsBaseURL = "https://openapiv1.coinstats.app/news"
     
     enum Endpoints: String {
         case coins
