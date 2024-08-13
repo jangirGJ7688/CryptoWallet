@@ -18,12 +18,12 @@ struct NewsTabView: View {
     var body: some View {
         ScrollView {
             VStack {
-                List {
-                    ForEach(vm.newsItems){ newsItem in
-                        NewsItemRowView(newsItem: newsItem)
-                    }
+                ForEach(vm.newsItems){ newsItem in
+                    NewsItemRowView(newsItem: newsItem)
+                    Divider()
                 }
             }
+            .padding(.horizontal,5)
         }
     }
 }

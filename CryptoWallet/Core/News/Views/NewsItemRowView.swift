@@ -33,6 +33,7 @@ struct NewsItemRowView: View {
             .padding(.vertical,2)
             Spacer()
         }
+        .frame(height: 100)
     }
 }
 
