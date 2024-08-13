@@ -34,7 +34,7 @@ extension PortfolioRowView {
     
     private var coinPortfolioView: some View {
         HStack(spacing: 20) {
-            AsyncImageView(urlSting: coin.image)
+            AsyncImageView(urlSting: coin.image, size: CGSize(width: 30, height: 30))
             Text(coin.name)
             Text(coin.symbol.uppercased())
             Spacer()

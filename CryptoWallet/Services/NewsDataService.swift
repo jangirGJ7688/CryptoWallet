@@ -11,7 +11,7 @@ import Combine
 class NewsDataService {
     
     @Published var newsItems: [NewsItemModel] = []
-    var subscription: AnyCancellable?
+    private var subscription: AnyCancellable?
     
     init() {
         getNews()

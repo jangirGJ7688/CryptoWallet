@@ -77,7 +77,7 @@ extension DetailView {
             Text(vm.coin.symbol.uppercased())
                 .font(.headline.bold())
                 .foregroundStyle(Color.theme.secondaryText)
-            AsyncImageView(urlSting: vm.coin.image)
+            AsyncImageView(urlSting: vm.coin.image, size: CGSize(width: 25, height: 25))
         }
     }
     private func titleView(_ title: String) -> some View {

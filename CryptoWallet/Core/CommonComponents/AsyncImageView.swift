@@ -8,24 +8,32 @@
 import SwiftUI
 
 struct AsyncImageView: View {
-    var urlSting: String?
+    let urlSting: String
+    let size: CGSize
+    
+    init(urlSting: String, size: CGSize) {
+        self.urlSting = urlSting
+        self.size = size
+    }
+    
     var body: some View {
-        AsyncImage(url: URL(string: urlSting ?? "")) { phase in
+        AsyncImage(url: URL(string: urlSting)) { phase in
             if let image = phase.image {
                 image
                     .resizable()
-                    .frame(width: 30,height: 30)
+                    .frame(width: size.width,height: size.height)
             }else if phase.error != nil {
                 Image(uiImage: UIImage(named: "iconPlaceholder")!)
                     .resizable()
-                    .frame(width: 30,height: 30)
+                    .frame(width: size.width,height: size.height)
             }else {
                 ProgressView()
+                    .frame(width: size.width,height: size.height)
             }
         }
     }
 }
-
-#Preview {
-    AsyncImageView()
-}
+//
+//#Preview {
+//    AsyncImageView()
+//}

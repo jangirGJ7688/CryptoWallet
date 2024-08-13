@@ -34,7 +34,7 @@ extension CurrencyRowView {
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
-            AsyncImageView(urlSting: coinModel.image)
+            AsyncImageView(urlSting: coinModel.image, size: CGSize(width: 30, height: 30))
             VStack(alignment: .leading) {
                 Text(coinModel.name)
                     .font(.headline)
