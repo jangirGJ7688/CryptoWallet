@@ -20,8 +20,7 @@ struct CryptoWalletApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                HomeView()
-                    .navigationBarHidden(true)
+                TabbarView()
             }
             .environmentObject(vm)
         }
