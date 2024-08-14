@@ -19,9 +19,9 @@ struct NewsItemModel: Decodable, Identifiable {
     let source, title: String
     let isFeatured: Bool?
     let imgUrl: String
-    let shareURL: String?
-    let relatedCoins: [String]?
-    let link: String?
+    let shareURL: String
+    let relatedCoins: [String]
+    let link: String
     
     
     func getTimeLapse() -> String {

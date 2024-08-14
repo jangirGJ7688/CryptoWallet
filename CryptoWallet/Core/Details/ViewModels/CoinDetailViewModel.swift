@@ -16,15 +16,18 @@ class CoinDetailViewModel: ObservableObject {
     @Published var coinDescription: String? = nil
     @Published var webURLString: String? = nil
     @Published var redditURLString: String? = nil
+    @Published var relatedArticals: [NewsItemModel] = []
     
     
     @Published var coin: CoinModel
     private var detailDataService: CoinDetailDataService
+    private var newsDataService: NewsDataService
     private var subscription = Set<AnyCancellable>()
     
     init(coin: CoinModel) {
         self.coin = coin
         self.detailDataService = CoinDetailDataService(coinID: coin.id)
+        self.newsDataService = NewsDataService()
         addSubscribers()
     }
     
@@ -49,6 +52,19 @@ class CoinDetailViewModel: ObservableObject {
                 self.redditURLString = coinData?.links?.subredditURL
             }
             .store(in: &subscription)
+        
+        newsDataService
+            .$newsItems
+            .map(mapRelatedNewsData)
+            .sink { [weak self] items in
+                guard let self = self else { return }
+                self.relatedArticals = items
+            }
+            .store(in: &subscription)
+    }
+    
+    private func mapRelatedNewsData(items: [NewsItemModel]) -> [NewsItemModel] {
+        return items.filter({ $0.relatedCoins.contains(where: { $0 == self.coin.id })})
     }
     
     private func mapDataToStats(coinData: CoinDetailModel?, coinModel: CoinModel) -> (overviewStats: [HomeStatModel], addtionalStats: [HomeStatModel]) {

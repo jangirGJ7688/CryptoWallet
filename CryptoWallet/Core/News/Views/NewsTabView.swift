@@ -16,6 +16,34 @@ struct NewsTabView: View {
     }
     
     var body: some View {
+        VStack {
+            header
+            content
+        }
+        .ignoresSafeArea()
+    }
+}
+
+#Preview {
+    NewsTabView()
+}
+
+extension NewsTabView {
+    private var header: some View {
+        HStack {
+            Text("News")
+                .font(.title.bold())
+                .foregroundStyle(Color.theme.accent)
+                .padding(.bottom,10)
+        }
+        .padding(.top,50)
+        .frame(maxWidth: .infinity)
+        .background{
+            Color.gray.opacity(0.4)
+        }
+    }
+    
+    private var content: some View {
         ScrollView {
             VStack {
                 ForEach(vm.newsItems){ newsItem in
@@ -26,8 +54,4 @@ struct NewsTabView: View {
             .padding(.horizontal,5)
         }
     }
-}
-
-#Preview {
-    NewsTabView()
 }

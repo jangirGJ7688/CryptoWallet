@@ -56,6 +56,11 @@ struct DetailView: View {
                 titleView("Additional Details")
                 Divider()
                 lazyGridView(vm.addtionalStats)
+                if vm.relatedArticals.count > 0 {
+                    titleView("Related Articals")
+                    Divider()
+                    articals
+                }
                 linksView
             }
             .padding()
@@ -134,5 +139,12 @@ extension DetailView {
         .accentColor(.blue)
         .frame(maxWidth: .infinity,alignment: .leading)
         .font(.headline)
+    }
+    
+    
+    private var articals: some View {
+        ForEach(vm.relatedArticals) { newsItem in
+            NewsItemRowView(newsItem: newsItem)
+        }
     }
 }
