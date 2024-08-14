@@ -22,6 +22,7 @@ struct NewsItemModel: Decodable, Identifiable {
     let shareURL: String
     let relatedCoins: [String]
     let link: String
+    let description: String?
     
     
     func getTimeLapse() -> String {
@@ -38,4 +39,11 @@ struct NewsItemModel: Decodable, Identifiable {
         return relativeDate
     }
     
+    func getTimeString() -> String {
+        let timeStampInSeconds = TimeInterval(self.feedDate/1000)
+        let feedDate = Date(timeIntervalSince1970: timeStampInSeconds)
+        let formattor = DateFormatter()
+        formattor.dateFormat = "MMM dd YYYY hh:mm a"
+        return formattor.string(from: feedDate)
+    }
 }

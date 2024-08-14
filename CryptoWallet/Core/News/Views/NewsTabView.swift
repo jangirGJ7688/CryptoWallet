@@ -10,17 +10,33 @@ import SwiftUI
 struct NewsTabView: View {
     
     @StateObject private var vm: NewsTabViewModel
+    @State private var selectedNewsItem: NewsItemModel? = nil
+    @State private var showDetailView: Bool = false
     
     init() {
         _vm = StateObject(wrappedValue: NewsTabViewModel())
     }
     
     var body: some View {
-        VStack {
-            header
-            content
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                VStack {
+                    header
+                    content
+                }
+                .ignoresSafeArea()
+                .background {
+                    NavigationLink(
+                        destination: NewsDetailTempView(newsItem: selectedNewsItem),
+                        isActive: $showDetailView,
+                        label: {
+                            EmptyView()
+                        })
+                }
+            }
+        } else {
+            // Fallback on earlier versions
         }
-        .ignoresSafeArea()
     }
 }
 
@@ -48,6 +64,10 @@ extension NewsTabView {
             VStack {
                 ForEach(vm.newsItems){ newsItem in
                     NewsItemRowView(newsItem: newsItem)
+                        .onTapGesture {
+                            selectedNewsItem = newsItem
+                            showDetailView.toggle()
+                        }
                     Divider()
                 }
             }

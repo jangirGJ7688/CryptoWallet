@@ -31,6 +31,9 @@ struct DetailView: View {
     @StateObject private var vm: CoinDetailViewModel
     @State private var readMoreExpended: Bool = false
     
+    @State private var selectedNewsItem: NewsItemModel? = nil
+    @State private var showDetailView: Bool = false
+    
     private let columns: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -71,6 +74,14 @@ struct DetailView: View {
                 navBarTrailingToolItem
             }
         })
+        .background {
+            NavigationLink(
+                destination: NewsDetailTempView(newsItem: selectedNewsItem),
+                isActive: $showDetailView,
+                label: {
+                    EmptyView()
+                })
+        }
     }
 }
 
@@ -145,6 +156,11 @@ extension DetailView {
     private var articals: some View {
         ForEach(vm.relatedArticals) { newsItem in
             NewsItemRowView(newsItem: newsItem)
+                .onTapGesture {
+                    selectedNewsItem = newsItem
+                    showDetailView.toggle()
+                }
+            Divider()
         }
     }
 }

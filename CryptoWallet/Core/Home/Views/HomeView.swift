@@ -17,42 +17,48 @@ struct HomeView: View {
     @State private var showDetailView: Bool = false
     
     var body: some View {
-        ZStack {
-            Color.theme.background
-                .ignoresSafeArea()
-                .sheet(isPresented: $showPortfolioView, content: {
-                    PortfolioView()
-                        .environmentObject(vm)
-                })
-            
-            VStack {
-                HeaderView
-                HomeStatView(statData: vm.homeStatData, showPortfolio: $showPortfolio)
-                SearchBarView(searchedText: $vm.searchedText)
-                if !showPortfolio {
-                    listHeader
-                    allCoinsList
-                    .transition(.move(edge: .leading))
-                    .refreshable {
-                        vm.reloadData()
-                    }
-                }else {
-                    portfolioList
-                    .transition(.move(edge: .trailing))
-                    .refreshable {
-                        vm.reloadData()
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                ZStack {
+                    Color.theme.background
+                        .ignoresSafeArea()
+                        .sheet(isPresented: $showPortfolioView, content: {
+                            PortfolioView()
+                                .environmentObject(vm)
+                        })
+                    
+                    VStack {
+                        HeaderView
+                        HomeStatView(statData: vm.homeStatData, showPortfolio: $showPortfolio)
+                        SearchBarView(searchedText: $vm.searchedText)
+                        if !showPortfolio {
+                            listHeader
+                            allCoinsList
+                                .transition(.move(edge: .leading))
+                                .refreshable {
+                                    vm.reloadData()
+                                }
+                        }else {
+                            portfolioList
+                                .transition(.move(edge: .trailing))
+                                .refreshable {
+                                    vm.reloadData()
+                                }
+                        }
+                        Spacer(minLength: 0)
                     }
                 }
-                Spacer(minLength: 0)
+                .background {
+                    NavigationLink(
+                        destination: CoinDetailView(coin: $selectedCoin),
+                        isActive: $showDetailView,
+                        label: {
+                            EmptyView()
+                        })
+                }
             }
-        }
-        .background {
-            NavigationLink(
-                destination: CoinDetailView(coin: $selectedCoin),
-                isActive: $showDetailView,
-                label: {
-                    EmptyView()
-                })
+        } else {
+            // Fallback on earlier versions
         }
     }
 }
