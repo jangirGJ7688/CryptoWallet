@@ -13,8 +13,9 @@ class NewsTabViewModel: ObservableObject {
     
     @Published var newsItems: [NewsItemModel] = []
     @Published var searchedText: String = ""
-    private var currentPage: Int
+    @Published var isDataLoading: Bool = false
     
+    private var currentPage: Int
     private var subscriptions = Set<AnyCancellable>()
     private var newsDataService = NewsDataService()
     
@@ -32,6 +33,7 @@ class NewsTabViewModel: ObservableObject {
             .sink { [weak self] items in
                 guard let self = self else { return }
                 self.newsItems = items
+                self.isDataLoading = false
             }
             .store(in: &subscriptions)
     }
@@ -48,8 +50,24 @@ class NewsTabViewModel: ObservableObject {
     }
     
     func loadMore() {
+        debugPrint("Ganpat: News Tab data reloading")
+        self.isDataLoading = true
         currentPage += 1
         newsDataService.getNews(page: currentPage)
+    }
+    
+    func isToLoadMore(id: String) -> Bool {
+        for i in 0..<self.newsItems.count {
+            if self.newsItems[i].id == id {
+                if i == self.newsItems.count - 1 {
+                    print(i)
+                    return true
+                }else {
+                    return false
+                }
+            }
+        }
+        return false
     }
     
 }

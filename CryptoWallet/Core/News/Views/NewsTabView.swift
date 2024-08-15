@@ -62,14 +62,26 @@ extension NewsTabView {
     
     private var content: some View {
         ScrollView {
-            VStack {
+            LazyVStack {
                 ForEach(vm.newsItems){ newsItem in
                     NewsItemRowView(newsItem: newsItem)
+                        .onAppear {
+                            if vm.isToLoadMore(id: newsItem.id) {
+                                vm.loadMore()
+                            }
+                        }
                         .onTapGesture {
                             selectedNewsItem = newsItem
                             showDetailView.toggle()
                         }
                     Divider()
+                }
+                if vm.isDataLoading {
+                    HStack {
+                        ProgressView()
+                            .tint(Color.theme.accent)
+                    }
+                    .frame(height: 50)
                 }
             }
             .padding(.horizontal,5)
