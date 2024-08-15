@@ -13,11 +13,13 @@ class NewsTabViewModel: ObservableObject {
     
     @Published var newsItems: [NewsItemModel] = []
     @Published var searchedText: String = ""
+    private var currentPage: Int
     
     private var subscriptions = Set<AnyCancellable>()
     private var newsDataService = NewsDataService()
     
     init() {
+        currentPage = 1
         addSubscriber()
     }
     
@@ -43,6 +45,11 @@ class NewsTabViewModel: ObservableObject {
             }
             return false
         }
+    }
+    
+    func loadMore() {
+        currentPage += 1
+        newsDataService.getNews(page: currentPage)
     }
     
 }
