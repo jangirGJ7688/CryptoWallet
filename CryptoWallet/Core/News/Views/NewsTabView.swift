@@ -20,11 +20,12 @@ struct NewsTabView: View {
     var body: some View {
         if #available(iOS 16.0, *) {
             NavigationStack {
-                VStack {
+                VStack{
                     header
+                    SearchBarView(searchedText: $vm.searchedText)
                     content
                 }
-                .ignoresSafeArea()
+                .ignoresSafeArea(edges: .top)
                 .background {
                     NavigationLink(
                         destination: NewsDetailTempView(newsItem: selectedNewsItem),

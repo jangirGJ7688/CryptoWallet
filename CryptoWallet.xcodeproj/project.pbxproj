@@ -67,6 +67,7 @@
 		B46BF9A52C25625B007EDF65 /* HepticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticManager.swift; sourceTree = "<group>"; };
 		B46BF9A72C27EC25007EDF65 /* CoinChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChartModel.swift; sourceTree = "<group>"; };
 		B46BF9A92C27ECF2007EDF65 /* CoinChartDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChartDataService.swift; sourceTree = "<group>"; };
+		B49D3B982C6D9E5600136A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B4DF88582C19C7A100C16184 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		B4DF885F2C19C7A200C16184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		B4DF885A2C19C7A100C16184 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				B49D3B982C6D9E5600136A13 /* Info.plist */,
 				B4DF888D2C2162CD00C16184 /* Utelities */,
 				B4DF88882C215A2400C16184 /* Constants */,
 				B4DF88852C1DCDB700C16184 /* Services */,
@@ -645,8 +647,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = XGXCL6K64U;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BigBit;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -674,8 +678,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = XGXCL6K64U;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BigBit;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
