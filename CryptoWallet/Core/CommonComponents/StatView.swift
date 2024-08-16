@@ -18,10 +18,9 @@ struct StatView: View {
                 .foregroundColor(Color.theme.accent)
                 .font(.headline)
             HStack(spacing: 4) {
-                Image(systemName: "triangle.fill")
-                    .rotationEffect(Angle(degrees:
-                                            (stat.percentDelta ?? 0) >= 0 ? 0 : 180))
-                Text(stat.percentDelta?.asNumberString() ?? "")
+                Text(abs(stat.percentDelta ?? 0.0).asNumberString())
+                Image((stat.percentDelta ?? 0) >= 0 ? "upIndicator" : "downIndicator")
+                    .renderingMode(.template)
             }
             .font(.caption)
             .foregroundColor((stat.percentDelta ?? 0) >= 0 ? Color.theme.green : Color.theme.red)
@@ -31,5 +30,5 @@ struct StatView: View {
 }
 
 #Preview {
-    StatView(stat: HomeStatModel(title: "Market Data", value: "$ 12.5Tr", percentDelta: -3.4))
+    StatView(stat: HomeStatModel(title: "Market Data", value: "$ 12.5Tr", percentDelta: 3.4))
 }

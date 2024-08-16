@@ -29,7 +29,7 @@ struct NewsDetailView: View {
     }
     
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             imageView
             VStack(alignment: .leading,spacing: 15) {
                 title

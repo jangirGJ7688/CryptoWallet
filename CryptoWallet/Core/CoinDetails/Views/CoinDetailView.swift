@@ -44,7 +44,7 @@ struct DetailView: View {
         _vm = StateObject(wrappedValue: CoinDetailViewModel(coin: coin))
     }
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack {
                 ChartView(coin: vm.coin)
                     .frame(height: 200)
