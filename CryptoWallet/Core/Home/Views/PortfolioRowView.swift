@@ -12,7 +12,7 @@ struct PortfolioRowView: View {
     let coin: CoinModel
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading,spacing: 20) {
             coinPortfolioView
             bottomView
         }
@@ -33,18 +33,20 @@ struct PortfolioRowView: View {
 extension PortfolioRowView {
     
     private var coinPortfolioView: some View {
-        HStack(spacing: 20) {
+        HStack {
             AsyncImageView(urlSting: coin.image, size: CGSize(width: 30, height: 30))
-            Text(coin.name)
-            Text(coin.symbol.uppercased())
             Spacer()
+            Text(coin.name)
+            Spacer()
+            Text(coin.symbol.uppercased())
         }
+        .padding(.horizontal)
         .font(.headline)
         .foregroundColor(Color.theme.accent)
     }
     
     private var currentPriceView: some View {
-        VStack(spacing: 5) {
+        VStack(spacing: 10) {
             Text("Current Price")
                 .font(.caption)
             Text(coin.currentPrice.asCurrencyWith6Decimal())
@@ -61,7 +63,7 @@ extension PortfolioRowView {
     }
     
     private var currentHoldingView: some View {
-        VStack(spacing: 5) {
+        VStack(spacing: 10) {
             Text("Current Holding")
                 .font(.caption)
             Text(coin.currentHoldingValue.asCurrencyWith6Decimal())

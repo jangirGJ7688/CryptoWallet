@@ -18,26 +18,19 @@ struct NewsTabView: View {
     }
     
     var body: some View {
-        if #available(iOS 16.0, *) {
-            NavigationStack {
-                VStack{
-                    header
-                    SearchBarView(searchedText: $vm.searchedText)
-                    content
-                }
-                .ignoresSafeArea(edges: .top)
-                .background {
-                    NavigationLink(
-                        destination: NewsDetailTempView(newsItem: selectedNewsItem),
-                        isActive: $showDetailView,
-                        label: {
-                            EmptyView()
-                        })
-                }
+            VStack{
+                Header
+                Content
             }
-        } else {
-            // Fallback on earlier versions
-        }
+            .ignoresSafeArea(edges: .top)
+            .background {
+                NavigationLink(
+                    destination: NewsDetailTempView(newsItem: selectedNewsItem),
+                    isActive: $showDetailView,
+                    label: {
+                        EmptyView()
+                    })
+            }
     }
 }
 
@@ -46,21 +39,34 @@ struct NewsTabView: View {
 }
 
 extension NewsTabView {
-    private var header: some View {
-        HStack {
-            Text("News")
-                .font(.title.bold())
-                .foregroundStyle(Color.theme.accent)
-                .padding(.bottom,10)
+    private var Header: some View {
+        VStack {
+            HStack {
+                HStack {
+                    Image("headerLogo")
+                        .resizable()
+                        .frame(width: 17,height: 26)
+                }
+                .frame(width: 50,height: 50)
+                .padding()
+                Spacer()
+                Text("NEWS")
+                    .font(.title3.bold())
+                Spacer()
+                Image("home")
+                    .frame(width: 50,height: 50)
+                    .padding()
+            }
+            .padding(.horizontal)
+            SearchBarView(searchedText: $vm.searchedText)
         }
-        .padding(.top,50)
-        .frame(maxWidth: .infinity)
-        .background{
-            Color.gray.opacity(0.4)
+        .padding(EdgeInsets(top: 30, leading: 0, bottom: 20, trailing: 0))
+        .background {
+            Color("headerBackground")
         }
     }
     
-    private var content: some View {
+    private var Content: some View {
         ScrollView {
             LazyVStack {
                 ForEach(vm.newsItems){ newsItem in
@@ -84,7 +90,7 @@ extension NewsTabView {
                     .frame(height: 50)
                 }
             }
-            .padding(.horizontal,5)
+            .padding(.horizontal,10)
         }
     }
 }

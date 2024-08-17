@@ -13,7 +13,7 @@ struct CoinCollectionView: View {
         VStack {
             AsyncImageView(urlSting: coin.image, size: CGSize(width: 30, height: 30))
                 .frame(width: 50,height: 50)
-            Text(coin.symbol)
+            Text(coin.symbol.uppercased())
                 .font(.headline)
                 .foregroundColor(Color.theme.accent)
                 .lineLimit(1)
