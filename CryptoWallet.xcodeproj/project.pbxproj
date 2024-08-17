@@ -129,6 +129,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B49D3B9F2C70C1A500136A13 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF88752C19D4EB00C16184 /* HomeView.swift */,
+				B4DF887D2C1C2B0D00C16184 /* CurrencyRowView.swift */,
+				B4DF889C2C23364000C16184 /* HomeStatView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		B49D3BA02C70C1AF00136A13 /* PortfolioTab */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF88A42C23F30B00C16184 /* PortfolioView.swift */,
+				B4DF88A92C2403F100C16184 /* CoinCollectionView.swift */,
+				B46BF9A32C2494CE007EDF65 /* PortfolioRowView.swift */,
+				B49D3B9D2C7084C700136A13 /* PortfolioTabView.swift */,
+			);
+			path = PortfolioTab;
+			sourceTree = "<group>";
+		};
 		B4DF884F2C19C7A100C16184 = {
 			isa = PBXGroup;
 			children = (
@@ -209,13 +230,8 @@
 		B4DF88732C19D4C700C16184 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B4DF88752C19D4EB00C16184 /* HomeView.swift */,
-				B4DF887D2C1C2B0D00C16184 /* CurrencyRowView.swift */,
-				B4DF889C2C23364000C16184 /* HomeStatView.swift */,
-				B4DF88A42C23F30B00C16184 /* PortfolioView.swift */,
-				B4DF88A92C2403F100C16184 /* CoinCollectionView.swift */,
-				B46BF9A32C2494CE007EDF65 /* PortfolioRowView.swift */,
-				B49D3B9D2C7084C700136A13 /* PortfolioTabView.swift */,
+				B49D3B9F2C70C1A500136A13 /* HomeTab */,
+				B49D3BA02C70C1AF00136A13 /* PortfolioTab */,
 			);
 			path = Views;
 			sourceTree = "<group>";
