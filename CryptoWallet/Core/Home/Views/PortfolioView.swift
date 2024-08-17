@@ -96,7 +96,7 @@ extension PortfolioView {
     private var purchaseView: some View {
         VStack(spacing: 20) {
             HStack {
-                Text("Current price of \(selectedCoin?.symbol ?? ""):")
+                Text("Current price of \(selectedCoin?.symbol.uppercased() ?? ""):")
                     .foregroundColor(Color.theme.accent)
                 Spacer()
                 Text(selectedCoin?.currentPrice.asCurrencyWith6Decimal() ?? "")
@@ -107,7 +107,7 @@ extension PortfolioView {
             HStack {
                 Text("Amount holding:")
                 Spacer()
-                TextField(selectedCoin != nil && (selectedCoin?.currentHoldings ?? 0) > 0 ? "\(selectedCoin?.currentHoldings ?? 0)" : "Ex: 1.4", text: $quantity)
+                TextField(selectedCoin != nil && (selectedCoin?.currentHoldings ?? 0) > 0 ? "\(selectedCoin?.currentHoldings ?? 0)" : "Ex: 2.5", text: $quantity)
                     .multilineTextAlignment(.trailing)
                     .keyboardType(.decimalPad)
             }
@@ -116,7 +116,7 @@ extension PortfolioView {
             HStack {
                 Text("Total Value:")
                 Spacer()
-                Text("$"+getTotalPrice().asNumberString())
+                Text(getTotalPrice().asCurrencyWith2Decimals())
             }
         }
         .animation(.none)

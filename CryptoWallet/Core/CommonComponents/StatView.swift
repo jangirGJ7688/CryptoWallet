@@ -18,7 +18,7 @@ struct StatView: View {
                 .foregroundColor(Color.theme.accent)
                 .font(.headline)
             HStack(spacing: 4) {
-                Text(abs(stat.percentDelta ?? 0.0).asNumberString())
+                Text(abs(stat.percentDelta ?? 0.0).asPercentString())
                 Image((stat.percentDelta ?? 0) >= 0 ? "upIndicator" : "downIndicator")
                     .renderingMode(.template)
             }

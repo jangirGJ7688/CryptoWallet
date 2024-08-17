@@ -53,9 +53,9 @@ extension CurrencyRowView {
                 Text(coinModel.currentPrice.asCurrencyWith6Decimal())
                     .bold()
                     .foregroundColor(Color.theme.accent)
-                Text(abs(coinModel.priceChange24H ?? 0).asPercentString())
+                Text(abs(coinModel.priceChangePercentage24H ?? 0).asPercentString())
                     .font(.caption)
-                    .foregroundColor((coinModel.priceChange24H ?? 0) >= 0 ? Color.theme.green : Color.theme.red)
+                    .foregroundColor((coinModel.priceChangePercentage24H ?? 0) >= 0 ? Color.theme.green : Color.theme.red)
             }
         }
     }

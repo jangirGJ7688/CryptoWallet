@@ -52,13 +52,13 @@ extension PortfolioRowView {
             Text(coin.currentPrice.asCurrencyWith6Decimal())
                 .font(.headline)
             HStack {
-                Image(systemName: "triangle.fill")
-                    .rotationEffect(Angle(degrees:
-                                            (coin.priceChange24H ?? 0) >= 0 ? 0 : 180))
-                Text(coin.priceChange24H?.asNumberString() ?? "")
+                Text(abs(coin.priceChangePercentage24H ?? 0.0).asPercentString())
+                Image((coin.priceChangePercentage24H ?? 0) >= 0 ? "upIndicator" : "downIndicator")
+                    .renderingMode(.template)
             }
             .font(.caption)
-            .foregroundColor((coin.priceChange24H ?? 0) >= 0 ? Color.theme.green : Color.theme.red)
+            .foregroundColor((coin.priceChangePercentage24H ?? 0) >= 0 ? Color.theme.green : Color.theme.red)
+            .opacity(coin.priceChangePercentage24H == nil ? 0 : 1.0)
         }
     }
     
@@ -66,7 +66,7 @@ extension PortfolioRowView {
         VStack(spacing: 10) {
             Text("Current Holding")
                 .font(.caption)
-            Text(coin.currentHoldingValue.asCurrencyWith6Decimal())
+            Text(coin.currentHoldingValue.asCurrencyWith2Decimals())
                 .font(.headline)
             Text(coin.currentHoldings?.asNumberString() ?? "")
         }
