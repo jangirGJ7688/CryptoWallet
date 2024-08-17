@@ -67,7 +67,7 @@
 		B46BF9A52C25625B007EDF65 /* HepticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticManager.swift; sourceTree = "<group>"; };
 		B46BF9A72C27EC25007EDF65 /* CoinChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChartModel.swift; sourceTree = "<group>"; };
 		B46BF9A92C27ECF2007EDF65 /* CoinChartDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChartDataService.swift; sourceTree = "<group>"; };
-		B49D3B982C6D9E5600136A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B49D3B982C6D9E5600136A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49D3B9D2C7084C700136A13 /* PortfolioTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioTabView.swift; sourceTree = "<group>"; };
 		B4DF88582C19C7A100C16184 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
@@ -150,6 +150,24 @@
 			path = PortfolioTab;
 			sourceTree = "<group>";
 		};
+		B49D3BA12C70C65C00136A13 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF885F2C19C7A200C16184 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B49D3BA22C70C69100136A13 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B49D3B982C6D9E5600136A13 /* Info.plist */,
+				B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */,
+				B4F179182C687A390018E7FF /* DevModel.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		B4DF884F2C19C7A100C16184 = {
 			isa = PBXGroup;
 			children = (
@@ -169,17 +187,15 @@
 		B4DF885A2C19C7A100C16184 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
-				B49D3B982C6D9E5600136A13 /* Info.plist */,
+				B49D3BA12C70C65C00136A13 /* Assets */,
 				B4DF888D2C2162CD00C16184 /* Utelities */,
 				B4DF88882C215A2400C16184 /* Constants */,
 				B4DF88852C1DCDB700C16184 /* Services */,
 				B4DF887C2C1B2A9700C16184 /* Models */,
 				B4DF88712C19D4B900C16184 /* Core */,
 				B4DF886E2C19D2FE00C16184 /* Extensions */,
-				B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */,
-				B4DF885F2C19C7A200C16184 /* Assets.xcassets */,
+				B49D3BA22C70C69100136A13 /* Others */,
 				B4DF88612C19C7A200C16184 /* Preview Content */,
-				B4F179182C687A390018E7FF /* DevModel.swift */,
 			);
 			path = CryptoWallet;
 			sourceTree = "<group>";
