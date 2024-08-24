@@ -1,0 +1,538 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWallet-master.dia",
+    "emit-module-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWallet-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWallet-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWallet-master.swiftdeps"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/DerivedSources/CoreDataGenerated/PortfolioCointainer/PortfolioCointainer+CoreDataModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioCointainer+CoreDataModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/DerivedSources/CoreDataGenerated/PortfolioCointainer/PortfolioEntity+CoreDataClass.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/DerivedSources/CoreDataGenerated/PortfolioCointainer/PortfolioEntity+CoreDataProperties.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioEntity+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Constants/AppConstants.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AppConstants~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CoinDetails/ViewModels/CoinDetailViewModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailViewModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CoinDetails/Views/ChartView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ChartView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CoinDetails/Views/CoinDetailView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/AsyncImageView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/AsyncImageView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/CircleButton/CircleButtonAnimationView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonAnimationView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/CircleButton/CircleButtonView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CircleButtonView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/SearchBarView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/SearchBarView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/StatView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StatView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/XMarkButton.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/XMarkButton~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/ViewModels/HomeViewModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeViewModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/HomeTab/CurrencyRowView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CurrencyRowView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/HomeTab/HomeStatView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/HomeTab/HomeView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/CoinCollectionView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinCollectionView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/PortfolioRowView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioRowView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/PortfolioTabView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioTabView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/PortfolioView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/News/Viewmodels/NewsTabViewModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabViewModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/News/Views/NewsItemRowView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemRowView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/News/Views/NewsTabView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsTabView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/NewsDetails/ViewModels/NewsDetailViewModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailViewModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/NewsDetails/Views/NewsDetailView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Profile/ProfileTabView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ProfileTabView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Tabbar/Tabbar.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/Tabbar~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Tabbar/TabbarView.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarView~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Extensions/ColorExtension.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/ColorExtension~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Extensions/DateExtension.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DateExtension~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Extensions/DoubleExtension.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DoubleExtension~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Extensions/StringExtension.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/StringExtension~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Extensions/UIApplication.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/UIApplication~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/CoinChartModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/CoinDetailModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/CoinModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/HomeStatModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HomeStatModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/MarketDataModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/NewsItemModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsItemModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Models/TabbarItemModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/TabbarItemModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Others/CryptoWalletApp.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CryptoWalletApp~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Others/DevModel.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/DevModel~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/CoinChartDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinChartDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/CoinDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/CoinDetailDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/CoinDetailDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/MarketDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/MarketDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/NewsDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/NewsDetailDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NewsDetailDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Services/PortfolioDataService.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/PortfolioDataService~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Utelities/HepticManager.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/HepticManager~partial.swiftmodule"
+  },
+  "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Utelities/NetworkingManager.swift" : {
+    "const-values" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.swiftconstvalues",
+    "dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.d",
+    "diagnostics" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.dia",
+    "index-unit-output-path" : "/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.o",
+    "llvm-bc" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.bc",
+    "object" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.o",
+    "swift-dependencies" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager.swiftdeps",
+    "swiftmodule" : "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/build/CryptoWallet.build/Debug-iphonesimulator/CryptoWallet.build/Objects-normal/arm64/NetworkingManager~partial.swiftmodule"
+  }
+}

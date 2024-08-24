@@ -29,6 +29,7 @@ struct HomeView: View {
                 HeaderView
                 HomeStatView(statData: vm.homeStatData, showPortfolio: $showPortfolio)
                 SearchBarView(searchedText: $vm.searchedText)
+                    .padding(.vertical)
                 if !showPortfolio {
                     listHeader
                     allCoinsList

@@ -9,7 +9,17 @@ import SwiftUI
 
 struct AppStateView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                if let isLogined = UserDefaults.standard.value(forKey: "ISUSERLOGINED") as? Bool, isLogined == true {
+                    TabbarView()
+                }else {
+                    SignUPView(userModel: .constant(SignUPModel(username: "", usermail: "", dateOfBirth: Date(), password: "")))
+                }
+            }
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 

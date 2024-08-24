@@ -1,0 +1,16 @@
+{
+  "source": "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/PortfolioRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Current Price"
+      },
+      {
+        "comment": "",
+        "key": "Current Holding"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "source": "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CommonComponents/SearchBarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search by name or symbol... "
+      }
+    ]
+  },
+  "version": 1
+}

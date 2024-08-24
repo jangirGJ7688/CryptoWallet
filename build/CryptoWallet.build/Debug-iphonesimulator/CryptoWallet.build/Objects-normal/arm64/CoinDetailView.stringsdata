@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/CoinDetails/Views/CoinDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Read Less"
+      },
+      {
+        "comment": "",
+        "key": "Read More"
+      },
+      {
+        "comment": "",
+        "key": "Official Website"
+      },
+      {
+        "comment": "",
+        "key": "Reddit Website"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,32 @@
+{
+  "source": "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/PortfolioTab/PortfolioView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Portfolio"
+      },
+      {
+        "comment": "",
+        "key": "Current price of %@:"
+      },
+      {
+        "comment": "",
+        "key": "Amount holding:"
+      },
+      {
+        "comment": "",
+        "key": "%lf"
+      },
+      {
+        "comment": "",
+        "key": "Ex: 2.5"
+      },
+      {
+        "comment": "",
+        "key": "Total Value:"
+      }
+    ]
+  },
+  "version": 1
+}

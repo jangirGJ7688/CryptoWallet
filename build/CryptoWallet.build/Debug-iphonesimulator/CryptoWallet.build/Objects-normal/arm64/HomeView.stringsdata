@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ganpatjangir/Desktop/IOSDev/CryptoWallet/CryptoWallet/Core/Home/Views/HomeTab/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Portfolio"
+      },
+      {
+        "comment": "",
+        "key": "Live Prices"
+      },
+      {
+        "comment": "",
+        "key": "Coin"
+      },
+      {
+        "comment": "",
+        "key": "Price"
+      }
+    ]
+  },
+  "version": 1
+}

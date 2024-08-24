@@ -10,7 +10,7 @@ import SwiftUI
 struct StatView: View {
     let stat: HomeStatModel
     var body: some View {
-        VStack(alignment: .center,spacing: 4){
+        VStack(alignment: .center,spacing: 8){
             Text(stat.title)
                 .foregroundColor(Color.theme.secondaryText)
                 .font(.caption)
