@@ -19,8 +19,8 @@
 		B49D3BAC2C71FB3A00136A13 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BAB2C71FB3A00136A13 /* SessionView.swift */; };
 		B4B02EF72C7A304D00201399 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B4B02EF62C7A304D00201399 /* FirebaseAuth */; };
 		B4B02EF92C7A304D00201399 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B4B02EF82C7A304D00201399 /* FirebaseAuthCombine-Community */; };
-		B4B02EFB2C7A41F000201399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */; };
 		B4B02EFD2C7A43D900201399 /* AuthenticationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B02EFC2C7A43D900201399 /* AuthenticationDataService.swift */; };
+		B4B02F002C7CC26F00201399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4B02EFF2C7CC26F00201399 /* GoogleService-Info.plist */; };
 		B4DF885C2C19C7A100C16184 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */; };
 		B4DF88602C19C7A200C16184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF885F2C19C7A200C16184 /* Assets.xcassets */; };
 		B4DF88632C19C7A200C16184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF88622C19C7A200C16184 /* Preview Assets.xcassets */; };
@@ -81,8 +81,8 @@
 		B49D3BA72C71A54A00136A13 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B49D3BA92C71C2CD00136A13 /* SignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
 		B49D3BAB2C71FB3A00136A13 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
-		B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4B02EFC2C7A43D900201399 /* AuthenticationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDataService.swift; sourceTree = "<group>"; };
+		B4B02EFF2C7CC26F00201399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4DF88582C19C7A100C16184 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		B4DF885F2C19C7A200C16184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 		B4DF885A2C19C7A100C16184 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				B4B02EFF2C7CC26F00201399 /* GoogleService-Info.plist */,
 				B49D3B982C6D9E5600136A13 /* Info.plist */,
-				B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */,
 				B49D3BA12C70C65C00136A13 /* Assets */,
 				B4DF888D2C2162CD00C16184 /* Utelities */,
 				B4DF88882C215A2400C16184 /* Constants */,
@@ -518,7 +518,7 @@
 			files = (
 				B4DF88632C19C7A200C16184 /* Preview Assets.xcassets in Resources */,
 				B4DF88602C19C7A200C16184 /* Assets.xcassets in Resources */,
-				B4B02EFB2C7A41F000201399 /* GoogleService-Info.plist in Resources */,
+				B4B02F002C7CC26F00201399 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,7 +716,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoWallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CryptoWallet/Preview\\ Content";
 				DEVELOPMENT_TEAM = XGXCL6K64U;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
@@ -749,7 +749,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoWallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CryptoWallet/Preview\\ Content";
 				DEVELOPMENT_TEAM = XGXCL6K64U;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
