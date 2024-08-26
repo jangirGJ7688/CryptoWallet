@@ -16,7 +16,11 @@
 		B49D3BA42C70F5C300136A13 /* ProfileImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BA32C70F5C300136A13 /* ProfileImagePicker.swift */; };
 		B49D3BA82C71A54A00136A13 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BA72C71A54A00136A13 /* SignInView.swift */; };
 		B49D3BAA2C71C2CD00136A13 /* SignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BA92C71C2CD00136A13 /* SignUPView.swift */; };
-		B49D3BAC2C71FB3A00136A13 /* AppStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BAB2C71FB3A00136A13 /* AppStateView.swift */; };
+		B49D3BAC2C71FB3A00136A13 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D3BAB2C71FB3A00136A13 /* SessionView.swift */; };
+		B4B02EF72C7A304D00201399 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B4B02EF62C7A304D00201399 /* FirebaseAuth */; };
+		B4B02EF92C7A304D00201399 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B4B02EF82C7A304D00201399 /* FirebaseAuthCombine-Community */; };
+		B4B02EFB2C7A41F000201399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */; };
+		B4B02EFD2C7A43D900201399 /* AuthenticationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B02EFC2C7A43D900201399 /* AuthenticationDataService.swift */; };
 		B4DF885C2C19C7A100C16184 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */; };
 		B4DF88602C19C7A200C16184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF885F2C19C7A200C16184 /* Assets.xcassets */; };
 		B4DF88632C19C7A200C16184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF88622C19C7A200C16184 /* Preview Assets.xcassets */; };
@@ -76,7 +80,9 @@
 		B49D3BA32C70F5C300136A13 /* ProfileImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImagePicker.swift; sourceTree = "<group>"; };
 		B49D3BA72C71A54A00136A13 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B49D3BA92C71C2CD00136A13 /* SignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
-		B49D3BAB2C71FB3A00136A13 /* AppStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateView.swift; sourceTree = "<group>"; };
+		B49D3BAB2C71FB3A00136A13 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4B02EFC2C7A43D900201399 /* AuthenticationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDataService.swift; sourceTree = "<group>"; };
 		B4DF88582C19C7A100C16184 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		B4DF885F2C19C7A200C16184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,6 +137,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B02EF72C7A304D00201399 /* FirebaseAuth in Frameworks */,
+				B4B02EF92C7A304D00201399 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +179,7 @@
 			children = (
 				B4DF885B2C19C7A100C16184 /* CryptoWalletApp.swift */,
 				B4F179182C687A390018E7FF /* DevModel.swift */,
-				B49D3BAB2C71FB3A00136A13 /* AppStateView.swift */,
+				B49D3BAB2C71FB3A00136A13 /* SessionView.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -205,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				B49D3B982C6D9E5600136A13 /* Info.plist */,
+				B4B02EFA2C7A41F000201399 /* GoogleService-Info.plist */,
 				B49D3BA12C70C65C00136A13 /* Assets */,
 				B4DF888D2C2162CD00C16184 /* Utelities */,
 				B4DF88882C215A2400C16184 /* Constants */,
@@ -316,6 +325,7 @@
 				B4F1790E2C6736D90018E7FF /* CoinDetailDataService.swift */,
 				B4F1791E2C69D2A50018E7FF /* NewsDataService.swift */,
 				B4F179362C6C7CB20018E7FF /* NewsDetailDataService.swift */,
+				B4B02EFC2C7A43D900201399 /* AuthenticationDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -458,6 +468,8 @@
 			);
 			name = CryptoWallet;
 			packageProductDependencies = (
+				B4B02EF62C7A304D00201399 /* FirebaseAuth */,
+				B4B02EF82C7A304D00201399 /* FirebaseAuthCombine-Community */,
 			);
 			productName = CryptoWallet;
 			productReference = B4DF88582C19C7A100C16184 /* CryptoWallet.app */;
@@ -488,6 +500,7 @@
 			);
 			mainGroup = B4DF884F2C19C7A100C16184;
 			packageReferences = (
+				B4B02EF52C7A304D00201399 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = B4DF88592C19C7A100C16184 /* Products */;
 			projectDirPath = "";
@@ -505,6 +518,7 @@
 			files = (
 				B4DF88632C19C7A200C16184 /* Preview Assets.xcassets in Resources */,
 				B4DF88602C19C7A200C16184 /* Assets.xcassets in Resources */,
+				B4B02EFB2C7A41F000201399 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +537,7 @@
 				B4DF88802C1C5FF700C16184 /* CoinModel.swift in Sources */,
 				B4F1791D2C69BD300018E7FF /* NewsItemModel.swift in Sources */,
 				B4F179332C6B90810018E7FF /* TabbarItemModel.swift in Sources */,
-				B49D3BAC2C71FB3A00136A13 /* AppStateView.swift in Sources */,
+				B49D3BAC2C71FB3A00136A13 /* SessionView.swift in Sources */,
 				B4DF888F2C2162E700C16184 /* NetworkingManager.swift in Sources */,
 				B4F179242C69DC160018E7FF /* NewsTabViewModel.swift in Sources */,
 				B4F1792B2C6B29FD0018E7FF /* TabbarView.swift in Sources */,
@@ -566,6 +580,7 @@
 				B4DF888C2C215C9B00C16184 /* AppConstants.swift in Sources */,
 				B4DF88702C19D32E00C16184 /* ColorExtension.swift in Sources */,
 				B4F179112C6738A90018E7FF /* CoinDetailModel.swift in Sources */,
+				B4B02EFD2C7A43D900201399 /* AuthenticationDataService.swift in Sources */,
 				B4DF887E2C1C2B0D00C16184 /* CurrencyRowView.swift in Sources */,
 				B46BF9A62C25625B007EDF65 /* HepticManager.swift in Sources */,
 				B4F179282C6A27040018E7FF /* NewsItemRowView.swift in Sources */,
@@ -708,6 +723,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BigBit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to upload profile image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -717,7 +734,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TheHunterCode.CryptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheHunterCode.CryptoWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -739,6 +756,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BigBit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to upload profile image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -748,7 +767,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TheHunterCode.CryptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheHunterCode.CryptoWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -778,6 +797,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4B02EF52C7A304D00201399 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4B02EF62C7A304D00201399 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B02EF52C7A304D00201399 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B4B02EF82C7A304D00201399 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B02EF52C7A304D00201399 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B4DF88662C19C7A200C16184 /* PortfolioCointainer.xcdatamodeld */ = {

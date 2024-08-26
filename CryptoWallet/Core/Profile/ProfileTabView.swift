@@ -90,11 +90,16 @@ struct ProfileTabView: View {
                             Image(systemName: "flag")
                             Text("Report Problem")
                         }
-                        HStack(spacing: 20) {
-                            Image(systemName: "square.and.arrow.up")
-                                .rotationEffect(.degrees(90))
-                            Text("Log Out")
+                        Button {
+                            AuthenticationDataService().signOut()
+                        } label: {
+                            HStack(spacing: 20) {
+                                Image(systemName: "square.and.arrow.up")
+                                    .rotationEffect(.degrees(90))
+                                Text("Log Out")
+                            }
                         }
+
                     }
                 }
             }

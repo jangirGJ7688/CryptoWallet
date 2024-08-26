@@ -19,4 +19,9 @@ struct AppConstants {
     enum Endpoints: String {
         case coins
     }
+    
+    // Variables
+    
+    static let isUserLogined = "ISUSERLOGINED"
+    static let isShowSignIn = "isShowSignIn".uppercased()
 }
