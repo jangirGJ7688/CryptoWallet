@@ -10,11 +10,11 @@ import SwiftUI
 struct SignInView: View {
     
     @State var userModel: SignInModel = SignInModel(email: "", password: "")
-    @StateObject private var authService = AuthenticationDataService()
     @State var showPassword = false
+    @State var showError = false
     
     var body: some View {
-        if authService.showLoader {
+        if false {
             ProgressView()
                 .controlSize(.large)
                 .foregroundStyle(Color.theme.accent)
@@ -36,7 +36,7 @@ struct SignInView: View {
                     .padding()
                     .background {
                         RoundedRectangle(cornerRadius: 8.0)
-                            .stroke(Color.theme.accent,lineWidth: 2.0)
+                            .stroke(showError ? Color.red : Color.theme.accent,lineWidth: 2.0)
                     }
                 
                 HStack {
@@ -59,11 +59,27 @@ struct SignInView: View {
                 .padding()
                 .background {
                     RoundedRectangle(cornerRadius: 8.0)
-                        .stroke(Color.theme.accent,lineWidth: 2.0)
+                        .stroke(showError ? Color.red : Color.theme.accent,lineWidth: 2.0)
+                }
+                
+                if showError {
+                    HStack(spacing: 15) {
+                        Image(systemName: "exclamationmark.triangle")
+                        Text("We can not recognize the email and password")
+                        Spacer()
+                    }
+                    .font(.callout)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .foregroundColor(Color.theme.accent)
+                    .background(Color.red.opacity(0.5))
+                    .cornerRadius(8.0)
                 }
                 
                 Button(action: {
-                    authService.signInExistingUser(with: userModel)
+                    Task {
+                        try await AuthenticationDataService.shared.signInExistingUser(with: userModel)
+                    }
                 }, label: {
                     Text("SIGN IN")
                 })

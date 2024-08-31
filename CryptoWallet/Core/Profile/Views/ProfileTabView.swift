@@ -9,22 +9,22 @@ import SwiftUI
 
 struct ProfileTabView: View {
     
-    @State var isShowActionSheet = false
-    
+    @State private var isShowProfileActionSheet = false
     @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
-    @State var selectedImage: UIImage?
     @State private var isImagePickerDisplay = false
+    
+    @StateObject var vm = ProfileTabViewModel()
     
     var body: some View {
         NavigationView {
             VStack {
-                Image(uiImage: ((selectedImage != nil ? selectedImage : UIImage(named: "profile"))!))
+                Image(uiImage: ((vm.selectedImage == nil ? UIImage(named: "profile") : vm.selectedImage)!))
                     .resizable()
                     .frame(width: 150,height: 150)
                     .cornerRadius(75)
                     .overlay {
                         Button(action: {
-                            self.isShowActionSheet.toggle()
+                            self.isShowProfileActionSheet.toggle()
                         }, label: {
                             Image(systemName: "camera.circle.fill")
                                 .resizable()
@@ -33,7 +33,7 @@ struct ProfileTabView: View {
                                 .position(x: 125,y: 125)
                         })
                     }
-                    .confirmationDialog("Profile Picture", isPresented: $isShowActionSheet) {
+                    .confirmationDialog("Profile Picture", isPresented: $isShowProfileActionSheet) {
                         Button {
                             self.sourceType = .camera
                             self.isImagePickerDisplay.toggle()
@@ -53,17 +53,17 @@ struct ProfileTabView: View {
                     Section("Personal") {
                         HStack(spacing: 20) {
                             Image(systemName: "person")
-                            Text("Ganpat Lal Jangir")
+                            Text(vm.user?.name ?? "")
                             Spacer()
                             
                         }
                         HStack(spacing: 20) {
                             Image(systemName: "envelope")
-                            Text("ganpatlaljangid7688@gmail.com")
+                            Text(vm.user?.email ?? "")
                         }
                         HStack(spacing: 20) {
                             Image(systemName: "calendar")
-                            Text("Feb 24, 2002")
+                            Text(vm.user?.dateOfBirth.asShortDateString() ?? "")
                         }
                     }
                     
@@ -91,7 +91,9 @@ struct ProfileTabView: View {
                             Text("Report Problem")
                         }
                         Button {
-                            AuthenticationDataService().signOut()
+                            Task{
+                                vm.signOut
+                            }
                         } label: {
                             HStack(spacing: 20) {
                                 Image(systemName: "square.and.arrow.up")
@@ -104,14 +106,9 @@ struct ProfileTabView: View {
                 }
             }
             .navigationTitle("Setting")
-            .toolbar(content: {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Image(systemName: "pencil.circle")
-                        .foregroundStyle(Color.theme.accent)
-                }
-            })
+            .navigationBarBackButtonHidden(true)
             .sheet(isPresented: self.$isImagePickerDisplay, content: {
-                ImagePickerView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
+                ProfileImagePickerView(selectedImage: $vm.selectedImage, sourceType: self.sourceType)
             })
         }
     }

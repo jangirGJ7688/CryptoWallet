@@ -12,11 +12,12 @@ struct SignUPView: View {
     @State var userModel: SignUPModel = SignUPModel(username: "", usermail: "", dateOfBirth: Date(), password: "")
     @State var isShowCalender = false
     
-    @StateObject private var authService = AuthenticationDataService()
     @State var showPassword = false
+    @State var showError = true
+    
     
     var body: some View {
-        if authService.showLoader {
+        if false {
             ProgressView()
                 .foregroundStyle(Color.theme.accent)
                 .frame(maxWidth: .infinity,maxHeight: .infinity)
@@ -79,7 +80,9 @@ struct SignUPView: View {
                 }
                 
                 Button(action: {
-                    authService.createUser(with: userModel)
+                    Task {
+                        try await AuthenticationDataService.shared.createUser(with:userModel)
+                    }
                 }, label: {
                     Text("CREATE ACCOUNT")
                 })

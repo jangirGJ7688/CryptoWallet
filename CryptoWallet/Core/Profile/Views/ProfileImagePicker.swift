@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-struct ImagePickerView: UIViewControllerRepresentable {
+struct ProfileImagePickerView: UIViewControllerRepresentable {
     
     @Binding var selectedImage: UIImage?
     @Environment(\.presentationMode) var isPresented
@@ -18,7 +18,7 @@ struct ImagePickerView: UIViewControllerRepresentable {
         let imagePicker = UIImagePickerController()
         imagePicker.allowsEditing = true
         imagePicker.sourceType = self.sourceType
-        imagePicker.delegate = context.coordinator 
+        imagePicker.delegate = context.coordinator
         return imagePicker
     }
     
@@ -33,14 +33,14 @@ struct ImagePickerView: UIViewControllerRepresentable {
 
 
 class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-    var picker: ImagePickerView
+    var picker: ProfileImagePickerView
     
-    init(picker: ImagePickerView) {
+    init(picker: ProfileImagePickerView) {
         self.picker = picker
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let selectedImage = info[.originalImage] as? UIImage else { return }
+        guard let selectedImage = info[.editedImage] as? UIImage else { return }
         self.picker.selectedImage = selectedImage
         self.picker.isPresented.wrappedValue.dismiss()
     }
